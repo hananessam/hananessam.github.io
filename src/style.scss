@@ -12,8 +12,14 @@
 	--color-main: #19bc8b;
 }
 
-::-moz-selection { background-color: var(--color-main);}
-::selection { background-color: var(--color-main);}
+::-moz-selection { 
+	background-color: var(--color-main);
+	color: #ffffff;
+}
+::selection { 
+	background-color: var(--color-main);
+	color: #ffffff;
+}
 
 a, a:hover{
 	color: inherit;
