@@ -127,8 +127,9 @@ main{
 
 #scroll{
 	position: absolute;
-	bottom: 22px;
+	bottom: 72px;
 	left: 50%;
+	transform: translateX(-15px);
 }
 
 #scroll a{ 
